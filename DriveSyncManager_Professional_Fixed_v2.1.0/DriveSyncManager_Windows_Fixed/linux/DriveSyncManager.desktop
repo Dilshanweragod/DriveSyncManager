@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=DriveSync Manager
+Comment=Sync local folders and public Google Drive links
+Terminal=false
+Exec=sh -c 'cd "$(dirname "$1")" && ./run_linux.sh' sh %k
+Categories=Utility;FileTools;
+Icon=folder-sync
