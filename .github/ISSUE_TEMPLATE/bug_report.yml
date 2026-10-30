@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible problem
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and Python version
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant error output
+      description: Remove credentials and private paths before posting.
